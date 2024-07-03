@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2{
+         position: fixed;
+        }
+        .c{
+            border: 2px solid black;
+            height: 290px;
+            width: 320px;
+            overflow-y: scroll;
+        }
+        .c1,.c2,.c3{
+            border: 3px solid black;
+            width: 120px;
+            height: 120px;
+            
+        }
+        .c1{
+            display:inline-block;
+            position: relative;
+             left: 100px;
+             top:20px;
+             background-color: blue;
+             z-index: 3;
+            
+        }
+        .c2{
+            display:inline-block;
+            position: absolute;
+            top:70px;
+            left: 70px;
+            background-color: brown;
+            z-index: 2;
+        }
+        .c3{
+            display: inline-block;
+            position: relative;
+            top: 90px;
+            background-color: chartreuse;
+            z-index: 1;
+           
+        }
+        p{
+            margin-top: 100px;
+        }
+        
+        </style>
+</head>
+<body>
+    <div class="c">
+        <h2>welcome</h2>
+
+    <div class="c1">blue</div>
+    <div class="c2">brown</div>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate at est deleniti fuga, sit expedita reprehenderit nam sapiente ipsum, officiis, quae molestiae quos voluptates cupiditate dicta? Veniam repellat soluta quis?Magnam tempore non ex? Temporibus quasi aperiam dicta pariatur, eius eligendi ipsum.</p>
+
+<div class="c3"> green</div></div>
+</body>
+</html>
