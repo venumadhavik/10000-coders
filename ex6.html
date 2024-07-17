@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cont{
+            display: grid;
+            grid-template-rows: 100px 150px 150px 50px 0px 0px 90px;
+            grid-template-areas: 
+            "area1 area1 area1 area1 area1 area1"
+
+            "area2 area2 area3  area3 area3 area4"
+            "area2 area2 area3  area3 area3 area4"
+            "area2 area2 area3  area3 area3 area4"
+            "area2 area2 area3  area3 area3 area4"
+            "area2 area2 area3  area3 area3 area4"
+            "area5 area5 area5  area5 area5 area4"
+
+
+
+            ;
+            
+            
+        }
+        .item{
+            border: 1px solid whitesmoke;
+        }
+        .item1{
+            grid-area: area1;
+            display: flex;
+            justify-content: center;
+            font-size: 30px;
+            justify-content: space-around;
+            padding: 20px;
+
+        }
+        a{            text-decoration: none;
+        }
+        .item2{
+            grid-area: area2;
+            display: grid;
+            grid-template-columns: repeat(auto-fill,250px);
+            gap:10px;
+            justify-content: center;
+            padding: 10px;
+
+        }
+        img{
+            width: 100%;
+            height: 60vh;
+        }
+        .item3{
+            grid-area: area3;
+        }
+        .item4{
+            grid-area: area4;
+        }
+        .item5{
+            grid-area: area5;
+        }
+    </style>
+</head>
+<body>
+    <div class="cont">
+        <div class="item item1">
+            <a href="">Home</a>
+            <a href="">about</a>
+
+            <a href="">contact</a>
+
+        </div>
+        <div class="item item2">
+            <img src="./img/salmon.jpg">
+            <img src="./img/salmon.jpg">
+
+
+        </div>
+        <div class="item item3">item3</div>
+        <div class="item item4">item4</div>
+        <div class="item item5">item5</div>
+
+    </div>
+    
+</body>
+</html>

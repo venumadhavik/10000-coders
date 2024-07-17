@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;}
+
+            
+         
+        .bar1,.bar2,.bar3{
+            border: 1px solid;
+            margin: 5px;
+            width: 30px;
+        }
+        .header{
+
+            display: flex;
+            flex-wrap: wrap;
+            background-color: white;
+            position: fixed;
+            margin-left: 90px;
+            justify-content: space-between;
+            width: 80vw;
+            top: 0px;
+
+
+
+        }
+        
+        
+        
+        
+        .container1{
+            display: grid;
+            grid-template-columns: repeat(auto-fit ,minmax(300px,1fr));
+            max-width: 90vw;
+            /* justify-content: space-around; */
+            /* line-height: 1; */
+            margin-left: 60px;
+            margin-right: 120px;
+
+              
+            margin-top: 10px;
+        }
+        .item1,.item2,.item3,.item4,.item11,.item22,.item33,.item44{
+            padding: 80px 0px 0px 40px;
+            display: grid;
+
+            
+        }
+        .item1 img,.item2 img,.item3 img,.item4 img, .item11 img,.item22 img,.item33 img,.item44 img{
+            width: 18vw;
+            
+            
+
+        }
+        
+        h5{
+            margin-top: 6px;
+            font-size: 20px;
+        }
+        P{
+            margin-top: 7px;
+            font-size: 14px;
+        }
+        .btn{
+           display: flex;
+           gap: 20px;
+           justify-content: center;
+           margin-left: 200%;
+           margin-top: 60px;
+           
+
+
+        }
+        a{
+            text-decoration: none;
+            color: black;
+
+        }
+        a:link{
+            color: antiquewhite;
+        }
+        a:visited{
+            color:rgb(21, 21, 21);
+        }
+    
+        a:hover{
+            background-color: brown;
+        }
+        .container2{
+            margin-top: 150px;
+            display: grid;
+            /* grid-template-columns: repeat(auto-fit,minmax(300px,1fr)); */
+            gap: 40px;
+            
+
+        }
+        .h3{
+            opacity: 0.7;
+            text-align: center;
+            }
+
+        .h2{
+            opacity: 0.7;
+            text-align: center;
+            margin-top: -100px;
+
+
+        }
+        .container2 img{
+            width: 50vw;
+            margin-left: 80px;
+            box-shadow: 5px 5px rgb(215, 211, 195);
+
+
+        }
+        .p1{
+            text-align: center;
+            margin-top: -200px;
+        }
+        .p2{
+            margin-top: -23em;
+
+
+        }
+        
+        .footer{
+            border: 2px solid black;
+            width: 80vw;
+            margin-left: -460px;
+            height: 50vh;
+            
+            display: flex;
+            justify-content: flex-start;
+            justify-content: space-around;
+            margin-top:1200px;
+        }
+      
+    
+    
+        
+        
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="nav">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div></div>
+        <div class="mdd" ><span style="color: rgb(64, 6, 239);">My Food</span></div>
+        <div class="end">Mail</div></div>
+        <div class="container1">
+            <div class="item1">
+                <img src="./img/sandwich.jpg" alt="image"  >
+                <h5>The Perfect Sandwich, A <br/>Real NYC Classic</h5>
+                <p>Just some random text, lorem ipsum <br/>text praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div class="item2">
+                <img src="./img/steak.jpg" >
+                <h5>Let Me Tell You About <br/>This Steak</h5>
+                <p>Once again, some random text to lorem <br/>lorem lorem lorem ipsum text praesent<br/> tincidunt ipsum lipsum.</p>
+            </div>
+            <div class="item3">
+                <img src="./img/cherries.jpg" alt="image" >
+                <h5>Cherries, <br/>interrupted</h5>
+                <p>Lorem ipsum text praesent <br/>tincidunt ipsum lipsum.<br/>
+
+                    What else?</p>
+            </div>
+            <div class="item4">
+                <img src="./img/cherries.jpg" alt="image" >
+                <h5>Cherries, <br/>interrupted</h5>
+                <p>Lorem ipsum text praesent <br/>tincidunt ipsum lipsum.<br/>
+
+                    What else?</p>
+            </div>
+
+            
+                <div class="item11">
+                    <img src="./img/sandwich.jpg" alt="image"  >
+                    <h5>The Perfect Sandwich, A <br/>Real NYC Classic</h5>
+                    <p>Just some random text, lorem ipsum <br/>text praesent tincidunt ipsum lipsum.</p>
+                </div>
+                <div class="item22">
+                    <img src="./img/steak.jpg" alt="image" >
+                    <h5>Let Me Tell You About <br/>This Steak</h5>
+                    <p>Once again, some random text to lorem <br/>lorem lorem lorem ipsum text praesent<br/> tincidunt ipsum lipsum.</p>
+                </div>
+                <div class="item33">
+                    <img src="./img/cherries.jpg" alt="image" >
+                    <h5>Cherries, <br/>interrupted</h5>
+                    <p>Lorem ipsum text praesent <br/>tincidunt ipsum lipsum.<br/>
+    
+                        What else?</p>
+                </div>
+                <div class="item44">
+                    <img src="./img/cherries.jpg" alt="image" >
+                <h5>Cherries, <br/>interrupted</h5>
+                <p>Lorem ipsum text praesent <br/>tincidunt ipsum lipsum.<br/>
+
+                    What else?</p>
+            </div>
+            <div class="btn">
+                <a href=""><<</a>
+                <a href="">1</a>
+                <a href="">2</a>
+                <a href="">3</a>
+                <a href="">4</a>
+                <a href="">>></a>
+
+
+            </div>
+            <div class="container2">
+                <h2 class="h3">About Me,The Food Man</h2>
+                <img src="./img/chef.jpg">
+                <h2 class="h2">I am Who I Am!
+                </h2>
+                <p class="p1">With Passion For Real, Good Food</p>
+                <p class="p2">Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fring
+                </p>
+
+            </div>
+            <div class="footer">
+                <div class="f1">
+                    <h2>Footer</h2>
+                    <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo <br/>condimentum, porta lectus vitae, ultricies congue <br/>gravida diam non fringilla.</p>
+                    <p>powered by <a class="h">w3.css</a></p>
+                </div>
+                <div class="f2"></div>
+                <h2>BLOG Posts</h2>
+                <img src="./img/salmon.jpg" width="50px" height="50px">
+
+
+
+                <div class="f3"></div>
+                <h2>POPULAR Tags</h2>
+
+
+            </div>
+
+    
+
+
+           
+            
+
+        
+    </div>
+    
+</body>
+</html>

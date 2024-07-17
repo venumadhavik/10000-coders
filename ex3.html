@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          .header{
+            display: grid;
+            grid-template-areas: "area1 area1 area1 area2 area3 area4";
+          }
+          .item{
+            /* border: 2px solid; */
+            text-decoration: none;
+            font-size: 25px;
+          }
+          .item1{
+            grid-area: area1;
+          }
+          .item2{
+            grid-area: area2;
+          }
+          .item3{
+            grid-area: area3;
+          }
+          .item4{
+            grid-area: area4;
+          }
+
+          .md{
+            display: grid;
+            grid-template-rows: 5px;
+            grid-template-columns: repeat(auto-fill,770px);
+            justify-content: center;
+
+
+          }
+          img{
+            width: 150%;
+            height: 480px;
+          }
+          
+
+
+
+    </style>
+  
+
+    
+</head>
+<body>
+    <div class="header">
+        <a class="item item1" href="">Home</a>
+        <a class="item item2 " href="">Contact</a>
+
+        <a class="item item3 " href="">menu</a>
+        <a class="item item4" href="">About us</a>
+        <div class="md">
+            <img src="./img/popsicle.jpg">
+        </div>
+
+    </div>
+</body>
+</html>

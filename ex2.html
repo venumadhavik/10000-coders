@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+       
+        .hd1,.hd2{
+            display: flex;
+
+            list-style-type: none;
+            width: 90%;
+            letter-spacing: 6px;
+            /* font-size: 20px; */
+        }
+        .hd2{
+
+            margin: -36px 580px;
+        column-gap: 30px;
+        }
+        .md{
+            display: grid;
+            grid-template-columns: repeat(auto-fill,minmax(600px,1fr));
+        }
+        img{
+            width: 90%;
+            height: 450px;
+            padding: 90px;
+
+
+        }
+        h2{
+            margin-top: -130px;
+            margin-left: 120px;
+            letter-spacing: 7px;
+            font-size: 30px;
+            opacity: 0.7;
+        }
+        .md1 {
+            display: grid;
+            grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+            margin-top: -80px;
+
+        }
+        .md2{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+margin-top: -25em;    
+margin-left: 29em;        
+
+        }
+        p{
+            text-align: center;
+            margin-left: 10em;
+            margin-top: 10px;
+        }
+        .p1{
+            opacity: 0.5;
+        }
+        .Menu{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        h1{
+            text-align: center;
+            font-size: 23px;
+            letter-spacing: 10px;
+            color: rgb(64, 55, 55);
+        }
+        h3{
+            font-size: 22px;
+            letter-spacing: 4px;
+            color: rgb(64, 55, 55);
+            margin-top: 50px;
+
+        }
+       .Menu .p{
+            opacity: 0.5;
+        }
+        .Menu img{
+            opacity: 0.5;
+        }
+            
+        
+       
+       
+    </style>
+</head>
+<body>
+    <div class="header">
+        <ul class="hd1">
+            <li>Gourmet au Catering</li></ul>
+            <ul class="hd2">
+            <li>About</li>
+            <li>Menu</li>
+            <li>Contact</li>
+        </ul>
+        <div class="md">
+            <img src="./img/sandwich.jpg">
+            <h2>le Catering</h2>
+        </div>
+        <div class="md1">
+            <img src="./img/steak.jpg">
+        </div>
+        <div class="md2">
+            <h2>About Catering </h2>
+            <p>Tradition since 1889</p>
+            <P >The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only <span style="background-color: rgb(194, 212, 212);">use seasonal </span>ingredients.</P>
+            <P class="p1">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</P>
+        </div>
+        <div class="Menu">
+            <div class="menu1">
+                <h1>Our Menu </h1>
+                <h3>Bread Basket </h3>
+                <div class="p">Assortment of fresh baked fruit breads and muffins 5.50  </div>
+                <h3>Honey Almond Granola with Fruits </h3>
+                <div class="p">Assortment of fresh baked fruit breads and muffins 5.50  </div>
+                <h3>Belgian Waffle
+                </h3>
+                <div class="p">Vanilla flavored batter with malted flour 7.50</div>
+            </div>
+                <div class="menu2">
+                    <img src="./img/wine.jpg">
+                </div>
+            
+
+            </div>
+
+        
+
+
+        
+    </div>
+    
+</body>
+</html>
